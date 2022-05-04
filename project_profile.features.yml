@@ -1,0 +1,7 @@
+bundle: project
+excluded:
+  - system.menu.account
+  - system.menu.footer
+  - system.menu.main
+  - system.menu.tools
+  - views.view.glossary

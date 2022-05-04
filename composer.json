@@ -1,0 +1,28 @@
+{
+    "name": "verbruggenalex/project_profile",
+    "type": "drupal-custom-profile",
+    "description": "Starter profile for a new project.",
+    "keywords": ["Drupal"],
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        "local": {
+            "type": "path",
+            "url": "../../*/*"
+        }
+    },
+    "require": {
+        "verbruggenalex/project_theme": "@dev",
+        "drupal/admin_toolbar": "^3.0",
+        "drupal/config_override_core_fields": "^3.0.1",
+        "drupal/coi": "^3.0",
+        "drupal/core-recommended": "^9.1",
+        "drupal/gin": "^3.0@beta",
+        "drupal/pathauto": "^1.7",
+        "drupal/environment_indicator": "^4.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable":true
+}

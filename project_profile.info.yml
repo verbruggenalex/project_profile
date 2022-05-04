@@ -1,0 +1,45 @@
+name: Project
+description: 'All features for the project'
+type: profile
+core_version_requirement: '^8.9 || ^9'
+dependencies:
+  - 'admin_toolbar:admin_toolbar'
+  - 'admin_toolbar:admin_toolbar_tools'
+  - 'coi:coi'
+  - 'components:components'
+  - 'drupal:automated_cron'
+  - 'drupal:block'
+  - 'drupal:block_content'
+  - 'drupal:comment'
+  - 'drupal:content_translation'
+  - 'drupal:dblog'
+  - 'drupal:field'
+  - 'drupal:file'
+  - 'drupal:filter'
+  - 'drupal:image'
+  - 'drupal:language'
+  - 'drupal:locale'
+  - 'drupal:media'
+  - 'drupal:media_library'
+  - 'drupal:menu_link_content'
+  - 'drupal:menu_ui'
+  - 'drupal:node'
+  - 'drupal:path'
+  - 'drupal:rdf'
+  - 'drupal:search'
+  - 'drupal:system'
+  - 'drupal:taxonomy'
+  - 'drupal:text'
+  - 'drupal:user'
+  - 'drupal:views'
+  - 'environment_indicator:environment_indicator'
+  - 'features:features'
+  - 'pathauto:pathauto'
+themes:
+  - claro
+  - gin
+  - project_theme
+  - radix
+package: Project
+distribution:
+  name: Project
